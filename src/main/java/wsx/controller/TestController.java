@@ -17,6 +17,7 @@ public class TestController {
     @RequestMapping(value = "/")
     public String index(Model m){
         m.addAttribute("testScope","Model");
+        System.out.println("git version");
         return "index";
     }
 }
