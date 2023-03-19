@@ -19,6 +19,7 @@ public class TestController {
         m.addAttribute("testScope","Model");
         System.out.println("git version");
         System.out.println("second commit");
+        System.out.println("hot-fix branch");
         return "index";
     }
 }
