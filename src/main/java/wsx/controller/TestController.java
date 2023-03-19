@@ -18,6 +18,7 @@ public class TestController {
     public String index(Model m){
         m.addAttribute("testScope","Model");
         System.out.println("git version");
+        System.out.println("second commit");
         return "index";
     }
 }
