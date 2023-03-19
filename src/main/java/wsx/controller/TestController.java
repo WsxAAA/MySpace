@@ -22,6 +22,7 @@ public class TestController {
         System.out.println("hot-fix branch");
         System.out.println("冲突合并---master");
         System.out.println("冲突合并");
+        System.out.println("push test");
         return "index";
     }
 }
